@@ -18,9 +18,12 @@ public:
     }
 };
 
-int main()
-{
-    std::cout << "Hello World!\n";
+int main(){
+    Abstraksiklas ak;
+    ak.setXY("Yogyakarta", "Kampus");
+    ak.display();
+
+    return 0;   
 }
 
 
