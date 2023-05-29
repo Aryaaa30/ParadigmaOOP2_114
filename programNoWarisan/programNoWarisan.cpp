@@ -15,11 +15,12 @@ public:
     }
 };
 
-
-
 int main()
 {
-    std::cout << "Hello World!\n";
+    derivedClass a;
+    a.perkenalan();
+
+    return 0;
 }
 
 
